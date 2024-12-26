@@ -1,0 +1,207 @@
+{
+  "version": "1.00",
+  "projectName": "TcmTouch-XPT2046",
+  "author": "localuser",
+  "items": [
+    {
+      "parentId": 0,
+      "type": "boolItem",
+      "defaultValue": "false",
+      "item": {
+        "naming": "TRUE_FALSE",
+        "name": "DebugLED",
+        "variableName": "TcmDebugLED",
+        "id": 1,
+        "eepromAddress": -1,
+        "functionName": "onChangeTcmDebugLED",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    }
+  ],
+  "codeOptions": {
+    "embeddedPlatform": "ARDUINO_ESP32",
+    "lastDisplayUuid": "4dcb12ec-13d8-4466-b8b6-bd575eae4612",
+    "lastInputUuid": "406a3089-6bc6-491e-9e3b-2cc2ec20a3cb",
+    "lastRemoteUuids": [
+      "2c101fec-1f7d-4ff3-8d2b-992ad41e7fcb"
+    ],
+    "lastThemeUuid": "e4524028-edd8-4e0a-ae15-a1f2ba05354f",
+    "applicationUUID": "446f8ad7-3d00-45aa-94db-b0e2c357f9c9",
+    "applicationName": "TcmTouch-XPT2046",
+    "lastProperties": [
+      {
+        "name": "DISPLAY_VARIABLE",
+        "latestValue": "gfx",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_TYPE",
+        "latestValue": "Adafruit_ILI9341",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_WIDTH",
+        "latestValue": "320",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_HEIGHT",
+        "latestValue": "240",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_RESET_PIN",
+        "latestValue": "-1",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_CS_PIN",
+        "latestValue": "15",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_RS_PIN",
+        "latestValue": "2",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_DATA_PIN",
+        "latestValue": "12",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_CLOCK_PIN",
+        "latestValue": "14",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "ST7735_TAB_TYPE",
+        "latestValue": "INITR_BLACKTAB",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_ROTATION",
+        "latestValue": "0",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "UPDATES_PER_SEC",
+        "latestValue": "5",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "DISPLAY_BUFFER_SIZE",
+        "latestValue": "0",
+        "subsystem": "DISPLAY"
+      },
+      {
+        "name": "TOUCH_LIBRARY",
+        "latestValue": "XPT2046_Touchscreen",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "TOUCH_INTERRUPT_PIN",
+        "latestValue": "36",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "TOUCH_CS_PIN",
+        "latestValue": "33",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "HARDWARE_TOUCH_ROTATION",
+        "latestValue": "0",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "ORIENTATION_SEPARATOR",
+        "latestValue": "",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "LIB_TOUCH_SWAP_XY",
+        "latestValue": "false",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "LIB_TOUCH_X_INVERTED",
+        "latestValue": "false",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "LIB_TOUCH_Y_INVERTED",
+        "latestValue": "false",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "CALIB_SEPARATOR",
+        "latestValue": "",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "TOUCH_SCREEN_CALIBRATE",
+        "latestValue": "false",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "TOUCH_CALIBRATION_STORAGE_LOC",
+        "latestValue": "400",
+        "subsystem": "INPUT"
+      },
+      {
+        "name": "ITEM_FONT",
+        "latestValue": "def:,1",
+        "subsystem": "THEME"
+      },
+      {
+        "name": "TITLE_FONT",
+        "latestValue": "def:,1",
+        "subsystem": "THEME"
+      },
+      {
+        "name": "BORDER_FOR_ACTIONS",
+        "latestValue": "0",
+        "subsystem": "THEME"
+      },
+      {
+        "name": "TITLE_SHOW_MODE",
+        "latestValue": "TITLE_FIRST_ROW",
+        "subsystem": "THEME"
+      },
+      {
+        "name": "USE_TC_UNICODE",
+        "latestValue": "false",
+        "subsystem": "THEME"
+      },
+      {
+        "name": "USE_SLIDER_ANALOG",
+        "latestValue": "true",
+        "subsystem": "THEME"
+      },
+      {
+        "name": "NEED_EDITING_ICONS",
+        "latestValue": "true",
+        "subsystem": "THEME"
+      }
+    ],
+    "namingRecursive": false,
+    "useCppMain": true,
+    "saveLocation": "ALL_TO_CURRENT",
+    "usingSizedEEPROMStorage": true,
+    "eepromDefinition": "",
+    "authenticatorDefinition": "",
+    "projectIoExpanders": [
+      "deviceIO:"
+    ],
+    "menuInMenuCollection": {
+      "menuDefinitions": []
+    },
+    "packageNamespace": "",
+    "appIsModular": false
+  },
+  "stringLists": []
+}
